@@ -19,14 +19,22 @@
     #container .album{width: 100%; height: 900px;
                     overflow: hidden;
                 }
-            /* 슬라이드 버튼 */
-            #container .album .mainslide_btn{}
-            /* 슬라이드 이미지 */
-            #container .images{position: relative; 
-                                display: flex; 
-                                height: 900px;}
-            #container .images img{width: 100%; height: 900px; z-index: 999;
-                                    object-fit: cover;}
+/* 슬라이드 버튼 */
+#container .album .mainslide_btn{}
+/* 슬라이드 이미지 */
+#container .images{
+  position: relative;       
+  display: flex; 
+  height: 900px;
+}
+
+#container .images img{
+  width: 100%; 
+  height: 900px; 
+  z-index: 999;
+  object-fit: cover;
+}
+
 /* 전시종료 안내 배너 */
 #exh_bnr{width: 100%; height: 80px;
         background-color: black;}
@@ -37,7 +45,78 @@
     #exh_bnr p{font-size: 20px;}
     #exh_bnr > span{float: right; font-size: 20px;}
 
+/* aside 버튼 */
+#today_collect_btn{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: black;
+  position: fixed;
+  top: 40%;
+  left: -75px;
+  z-index: 9999;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+#today_collect_btn p{
+  font-size: 15px;
+  color: #fff;
+  line-height: 25px;
+}
+
+
+#reserve_btn{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px 20px 20px 15px;
+  box-sizing: border-box;
+  background-color:black;
+  position: fixed;
+  top: 40%;
+  right: -75px;
+  z-index: 9999;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+#reserve_btn p{
+  font-size: 14px;
+  color: #fff;
+  line-height: 25px;
+  text-align: end;
+}
+
+#top_btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color:black;
+  position: fixed;
+  bottom: 5%;
+  right: 2%;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+}
+
+#top_btn span{
+  color: #fff;
+}
+
+/* 컨텐츠 */
 #contents{width: 100%; height: 200px;}
+
+
 /* 하단 */
 #footer{width: 100%; height: 120px;
         background-color: black;}
