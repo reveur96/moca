@@ -1,0 +1,42 @@
+#header{
+  width: 100%;
+}
+
+#nav{
+  margin: 0 auto;
+  width: 1000px; 
+  height: 120px;
+}
+
+/* 메인메뉴 */
+#mainmn{
+  width: 100%; 
+  height: 100%;
+  display: flex; 
+  justify-content: space-around;
+  padding: 50px 0 25px 0; 
+  box-sizing: border-box;
+}
+
+#mainmn li{
+  margin-top: 20px;
+}
+
+#mainmn > li > a{
+  font-weight: 900; 
+  font-size: 18px;
+}
+
+#mainmn .h_logo{
+  width: 190px;
+}
+
+#mainmn img{
+  width: 100%;
+}
+/* 서브메뉴 */
+#mainmn .submn{
+  width: 100%; 
+  margin-top: 15px;
+  display: none;
+}
