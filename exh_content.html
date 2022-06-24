@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>exh_content/moca_sub</title>
     <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/exh_style.css">
 </head>
 <body>
     <div id="wrap">
@@ -81,32 +81,12 @@
 
         <!-- 콘텐츠 -->
         <section id="contents">
-
-            <!-- 탭메뉴 -->
-            <div class="tab_mn">
-            <!-- <nav>
-                <ul>
-                    <li class="is_on"><a href="#" class="btn">현재 전시</a></li>
-                    <li><a href="#" class="btn">예정 전시</a></li>
-                    <li><a href="#" class="btn">지난 전시</a></li>
-                    <li><a href="#" class="btn">온라인 전시관</a></li>
+                <ul id="tab_mn">
+                    <li><a href="#">현재전시</a></li>
+                    <li><a href="#">예정전시</a></li>
+                    <li><a href="#">지난전시</a></li>
+                    <li><a href="#">온라인 미술관</a></li>
                 </ul>
-            </nav> -->
-                <label class="tab tab01" onclick="tab01();">
-                <p>현재전시</p>
-                </label>
-                <label class="tab tab02" onclick="tab02();">
-                <p>예정 전시</p>
-                </label>
-                <label class="tab tab03" onclick="tab03();">
-                <p>지난 전시</p>
-                </label>
-                <label class="tab tab04" onclick="tab04();">
-                <p>온라인 전시관</p>
-                </label>
-                <span class="border"></span>
-                <span class="background"></span>
-            </div>
             
             <!-- 전시목록 -->
         
@@ -133,10 +113,12 @@
             
         </section>
 
+        <!-- 평가 -->
         <section id="survey">
 
         </section>
 
+        <!-- 하단 -->
         <footer id="footer">
             <div id="footer_in">
                 <address class="address">
@@ -158,23 +140,7 @@
         
     </div>
 
-    <script>
-        	"use strict";
-        let background = document.querySelector(".tab_mn .background");
-  
-        function tab01() {
-          background.style.transform = "translateX(0px)";
-        }
-        function tab02() {
-          background.style.transform = "translateX(185px)";
-        }
-        function tab03() {
-          background.style.transform = "translateX(370px)";
-        }
-        function tab04() {
-          background.style.transform = "translateX(555px)";
-        }
-      </script>
+
 
 </body>
 </html>
