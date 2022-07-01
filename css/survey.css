@@ -1,3 +1,4 @@
+
 #pageSatisfy {
   width: 1000px;
   height: 430px;
@@ -13,6 +14,7 @@
   float: left;
   font-weight: bold;
   font-size: 1.2em;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy header .point {
@@ -22,6 +24,12 @@
 #pageSatisfy header .point span {
   padding-right: 10px;
   font-size: 0.9em;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+#pageSatisfy .invisible {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 10px;
 }
 
 #pageSatisfy .satisfyInner {
@@ -43,6 +51,7 @@
   line-height: 24px;
   vertical-align: middle;
   margin-right: 10px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy .satisfyInner input[type="radio"] {
@@ -85,6 +94,7 @@
 }
 
 #pageSatisfy .manager h3 {
+  font-family: 'Noto Sans KR', sans-serif;
   float: left;
   width: 130px;
   height: 50px;
@@ -97,6 +107,7 @@
   overflow: hidden;
   padding: 0 0 0 15px;
   font-size: 0.9em;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy .manager dt,
@@ -125,12 +136,14 @@
 }
 
 #pageSatisfy header p:before {
+    font-family: 'Noto Sans KR', sans-serif;
   top: 0px !important;
 }
 
 /* #pageSatisfy header p		{ height: auto !important; min-height: 50px; } */
 #pageSatisfy #satisfactionVO header p {
   min-height: 0px;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy header {
