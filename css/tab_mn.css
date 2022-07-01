@@ -1,0 +1,62 @@
+#top_img{
+  width: 1920px; 
+  height: 197px;
+  background: url(../images/top_img.png) no-repeat 20% 60%;      background-size: 1920px;
+}
+.top_img_in{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.location{
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 탭메뉴 */
+
+#contents .tab_mn{
+  width: 1200px; 
+  height: 150px;
+  padding-left:230px;
+  position: relative;
+}
+
+#contents .tab_mn .tab{
+  width: 165px; height: 80px;
+  float: left;
+  line-height: 80px; 
+  margin-left: 20px;
+  border-bottom: 2px solid rgba(112, 112, 112, 0.3);
+  text-align: center;
+  cursor: pointer;
+  z-index: 2;
+  }
+#contents .tab_mn .tab > p{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px; 
+  color: #707070;
+}
+
+#contents .tab_mn .background{
+  z-index: 1;
+  position: absolute;
+  width: 165px; height: 80px;
+  left: 250px; top: 0px;
+  border-bottom:2px solid #707070; 
+}
+
+/* 하위메뉴 */
+
+#contents .tab_mn .tab01 .sub_mn{
+  display: block;
+  width: 720px; height: 80px;
+  padding-left: 20px;
+  display: flex; 
+  justify-content: space-around;
+}
+
+#contents .tab_mn .tab01 .sub_mn > li > a{
+  font-size: 14px;
+  color: #AEAEAE;
+}
+
+
