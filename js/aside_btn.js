@@ -1,6 +1,6 @@
 const doc = document.documentElement;
 const docHeight = window.pageYOffset;
-const docScene = 700;
+const docScene = (docHeight/6);
 
 const collectBtn = document.querySelector("#today_collect_btn");
 const reserveBtn = document.querySelector("#reserve_btn");
