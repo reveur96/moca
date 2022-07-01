@@ -1,21 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Noto+Serif+KR:wght@200&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-body{
-  font-size: 14px;
-  color: #000;
-  font-family: 'Noto Serif KR', serif;
-}
-ul, li{
-  list-style: none; 
-  color: #000;
-}
-a{
-  text-decoration: none; 
-  color: #000;
-}
-img{border: none;}
 
+body {
+    font-size: 14px;
+    color: #000;
+    font-family: 'Noto Serif KR', serif;
+}
+
+ul,
+li {
+    list-style: none;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+img {
+    border: none;
+}
