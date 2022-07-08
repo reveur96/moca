@@ -41,6 +41,7 @@
 
 /* 메인메뉴 */
 #mainmn {
+  font-family: 'Noto Sans KR', sans-serif;
   width: 100%;
   display: flex;
   justify-content: space-around;
