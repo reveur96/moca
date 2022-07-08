@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="./css/header.css">
     <link rel="stylesheet" type="text/css" href="./css/aside_btn.css">
     <link rel="stylesheet" type="text/css" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/style(index_c).css">
+    <!-- <link rel="stylesheet" type="text/css" href="./css/style(index_c).css"> -->
     <link rel="stylesheet" type="text/css" href="./css/footer.css">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"/>
@@ -20,6 +20,7 @@
     <div id="wrap">
       <header id="header">
         <nav id="nav">
+          <button id="language"><span>ENGLISH</span></button>
           <!-- 메인메뉴 -->
           <ul id="mainmn">
               <li><a href="#">이용안내</a>
@@ -49,6 +50,7 @@
                       <li><a href="#">소식</a></li>
                   </ul>
               </li>
+              <!-- 부산현대미술관 로고 -->
               <h1 class="h_logo"><img src="./images/h_logo.jpg" alt=""></h1>
               <li><a href="#">교육/소식</a>
                   <!-- 서브메뉴 04-->
@@ -75,126 +77,183 @@
           </ul>
         </nav>
           <!-- 메인이미지 -->
-          <section id="mainslide">
-              <article id="container">
-                  <div class="album">
-                      <!-- 슬라이드 버튼 -->
-                      <ul class="mainslide_btn">
-                          <li><a href="#"> </a></li>
-                          <li><a href="#"> </a></li>
-                          <li><a href="#"> </a></li>
-                      </ul>
-                      <!-- 슬라이드 이미지 -->
-                      <div class="images">
-                          <img src="./images/mainimg_1.png" alt="">
-                          <img src="./images/mainimg_2.png" alt="">
-                          <img src="./images/mainimg_3.png" alt="">
-                      </div>
-                  </div>
-              </article>
+          <section id="slide_wrap">
+            <!-- 메인이미지 슬라이더 -->
+            <article id="slide">
+              <!-- 메인이미지 -->
+              <div id="slide_item"></div>
+              <div id="slide_item"></div>
+              <div id="slide_item"></div>
+              <div id="slide_item"></div>
+              <div class="slide_prev_button slide_button">◀</div>
+              <div class="slide_next_button slide_button">▶</div>
+              <!-- 메인이미지 페이지네이션 -->
+              <ul class="slide_pagination"></ul>
+            </article>
           </section>
-          <article id="exh_bnr">
-            <div>
-              <p>새로운매개들 - 부산 미디어아트의 시작과 계보</p>
-              <span>2022.07.10 전시종료 예정</span>
-            </div>
-          </article>
+          <section id="exh_bnr">
+            <article id="exh_bnr_box">
+              <div>
+                <p>새로운매개들 - 부산 미디어아트의 시작과 계보</p>
+                <span>2022.07.10 전시종료 예정</span>
+              </div>
+              <!-- 무한 슬라이드 연출시 보여질 텍스트들 -->
+              <!-- <div>
+                <p>거의 정보가 없는 전시</p>
+                <span>2022.07.17 전시종료 예정</span>
+              </div>
+              <div>
+                <p>그레이박스 이후: 수집에서 전시까지</p>
+                <span>2022.07.20 전시종료 예정</span>
+              </div> -->
+            </article>
+          </section>
       </header>
 
-      <!-- 콘텐츠 -->
       <section id="content_top">
         <!-- 콘텐츠 상단 -->
-      
-        <!-- 관람안내 -->
-        <article id="c_info">
-          <h1>관람시간</h1>
-          <p>화~일 10 : 00 ~ 18 : 00</p>
-          <h1>관람료</h1>
-          <p>무료 기획전 · 특별전 등 일부 전시 유료</p>
-          <div><span><a href="#">오시는길</a></span></div>
-        </article>
-      
-        <!-- 책그림섬 -->
-        <article id="c_child">
-          <!-- 책그림섬 메인 -->
-          <img src="./images/bookmain.png" alt="책그림섬 메인이미지">
-          <div class="c_child_main">
-            <!-- 책그림섬 메인 안 콘텐츠 -->
-            <img src="./images/tit_sub_childlib01.png" alt="책그림섬로고">
-            <p>부산현대미술관 책그림섬은 어린이들의 원활한 독서 환경 제공을 위하여 사전 예약제로 운영됩니다.</p>
-            <h3>이용안내</h3>
-            <span> - 운영시간 : 매주 화요일 ~ 일요일, 10:00 ~ 17:00 <br>
-              - 휴실일 : 매주 월요일, 1월 1일, 명절 연휴(추석, 설날)</span>
-          </div>
-          <ul>
-            <li><a href="#"><img src="./images/있었는데.png"></a></li>
-            <li><a href="#"><img src="./images/환상의섬.png"></a></li>
-            <li><a href="#"><img src="./images/공감각적.png"></a></li>
-          </ul>
-        </article>
-      </section>
-      
-      <!-- 콘텐츠 하단 -->
-      <section id="content_bottom">
-        <!-- 교육프로그램 -->
-        <article id="c_edu">
-          <div class="c_edu_top">
-            <p>교육프로그램</p>
-            <div class="btn">
-              <a href="#">
-                <div class="btn_01"></div>
-              </a>
-              <a href="#">
-                <div class="btn_02"></div>
-              </a>
-            </div>
-          </div>
-          <div class="poster">
-            <a href="#"><img src="./images/교육3.png"></a>
-            <a href="#"><img src="./images/교육4.png"></a>
-          </div>
-        </article>
-      
-        <!-- 미술관소식 -->
-        <article id="c_news">
-          <div class="c_news_top">
-            <p>미술관 소식</p>
-            <div class="btn">
-              <a href="#">
-                <div class="btn_01"></div>
-              </a>
-              <a href="#">
-                <div class="btn_02"></div>
-              </a>
-            </div>
-          </div>
-          <div class="read">
-            <div>
-              <h4>《그레이박스 이후》 <br>
-                전시 연계 퍼포먼스 안내</h4>
-              <p>
-                김홍석 〈좋은 비평 나쁜 비평 이상한 비평〉 새로운 기술 매체로 인해 변화하는 미술 작품 소장 개념과 방식, 미래지향적 소장 방향을 모색해보고자2022 소장품 기획전 《그레이박스 이후: 수집에서
-                전시까지》 전시 연계 행사를 두 차례에 걸쳐 개최합니다.
-      
-              </p>
-              <span>
-                2022.05.16
-              </span>
-            </div>
-            <div>
-              <h4>《그레이박스 이후》 <br>
-                권하윤 〈489년>관람안내</h4>
-              <p>
-                권하윤 <489년>은 vr장비를 사용해 관람하는 작품입니다. 13세 미만 어린이 외 노약자는 관람이 제한되고 건강상 문제가 있는 사용자는 작품감상이 어려울 수 있습니다. 전시장 전시관리도우미의
-                  안내를 따라 주세요.
-              </p>
-              <span>
-                2022.04.20
-              </span>
-            </div>
-          </div>
-        </article>
-      </section>
+
+            <!-- 관람안내 -->
+            <article id="c_info">
+                
+                <h1>관람시간</h1>
+                <p>화~일 10 : 00 ~ 18 : 00</p>
+                <h1>관람료</h1>
+                <p>무료  기획전 · 특별전 등 일부 전시 유료</p>
+                <div><span><a href="#">오시는길</a></span></div>
+            </article>
+
+            <!-- 책그림섬 -->
+            <article id="c_child">
+                <!-- 책그림섬 메인 -->
+                <img src="./images/bookmain.png" alt="책그림섬 메인이미지">
+                <div class="c_child_main">
+                    
+                    <!-- 책그림섬 메인 안 콘텐츠 -->
+                    <a href="https://www.busan.go.kr/moca/childlib01"><img src="./images/tit_sub_childlib01.png" alt="책그림섬로고"></a> 
+                    <p>부산현대미술관 책그림섬은 어린이들의 원활한 독서 환경 제공을 위하여 사전 예약제로 운영됩니다.</p>
+                    <h3>이용안내</h3>
+                    <span> - 운영시간 : 매주 화요일 ~ 일요일, 10:00 ~ 17:00 <br>
+                        - 휴실일 : 매주 월요일, 1월 1일, 명절 연휴(추석, 설날)</span>
+                </div> 
+                <ul>
+                <li><a href="https://www.busan.go.kr/moca/childlib0201/1505768">
+                    <img src="./images/있었는데.png"><figcaption>자세히보기</figcaption></a>
+                    </li>
+                <li><a href="https://www.busan.go.kr/moca/childlib0201/1489725">
+                    <img src="./images/환상의섬.png"><figcaption>자세히보기</figcaption></a></li>
+                <li><a href="https://www.busan.go.kr/moca/childlib0201/1489724">
+                    <img src="./images/공감각적.png"><figcaption>자세히보기</figcaption></a></li>
+                </ul>
+            </article>
+        </section>
+
+        <script src="./js/js(index_c).js"></script>
+        <!-- 콘텐츠 하단 -->
+        <section id="content_bottom">
+            <!-- 교육프로그램 -->
+            <article id="c_edu">
+                <div class="c_edu_top"> 
+                    <p>교육프로그램</p>
+                
+                        <input id="tab01" type="radio" name="tabmenu" checked>
+                        <input type="radio" name="tabmenu" id="tab02">
+                    
+                   
+                    <div class="btn">
+                        <label for="tab01"></label>
+                        <label for="tab02"></label>
+                    </div>
+
+                
+                    <div class="poster con1">
+                        <a href="https://www.busan.go.kr/moca/education05/1521846">
+                            <img src="./images/교육3.png">
+                        </a>
+                        <a href="https://www.busan.go.kr/moca/education05/1521849">
+                            <img src="./images/교육4.png">
+                        </a>
+                    </div>
+                    <div class="poster con2">
+                        <a href="https://www.busan.go.kr/moca/education05/1528255"><img src="./images/교육1.png"></a>
+                        <a href="https://www.busan.go.kr/moca/education05/1528539"><img src="./images/교육2.png"></a>
+                    </div>
+                </div>
+     
+    
+            </article>
+
+            <!-- 미술관소식 -->
+            <article id="c_news">
+                <div class="c_news_top">
+                    <p>미술관 소식</p>
+                    <input type="radio" name="tabmenu1" id="tab1" checked>
+                    <input type="radio" name="tabmenu1" id="tab2">
+                    
+                   
+                    <div class="btn">
+                        <label for="tab1"></label>
+                        <label for="tab2"></label>
+                    </div>
+                
+                    <div class="read news1">
+                        <div>
+                            <a href="https://www.busan.go.kr/moca/news01/1528640?curPage=&srchBeginDt=2021-07-08&srchEndDt=2022-07-08&searchKey=&searchText="><h5>《그레이박스 이후》 <br>
+                                전시 연계 퍼포먼스 안내</h5></a>
+                            <p>
+                                김홍석 〈좋은 비평 나쁜 비평 이상한 비평〉 새로운 기술 매체로 인해 변화하는 미술 작품 소장 개념과 방식, 미래지향적 소장 방향을 모색해보고자2022 소장품 기획전 《그레이박스 이후: 수집에서 전시까지》 전시 연계 행사를 두 차례에 걸쳐 개최합니다.
+
+                            </p>
+                            <span>
+                                2022.05.16
+                            </span>
+                        </div>
+                        <div>
+                            <a href="https://www.busan.go.kr/moca/news01/1526022?curPage=&srchBeginDt=2021-07-08&srchEndDt=2022-07-08&searchKey=&searchText="><h5>《그레이박스 이후》 <br>
+                                권하윤 &lt;489년&gt;안내</h5></a>
+                            <p>
+                                권하윤 &lt;489년&gt;은 vr장비를 사용해 관람하는 작품입니다.  13세 미만 어린이 외 노약자는 관람이 제한되고 건강상 문제가 있는 사용자는 작품감상이 어려울 수 있습니다. 전시장 전시관리도우미의 안내를 따라 주세요.
+                            </p>
+                            <span>
+                                2022.04.20
+                            </span>
+                        </div>
+                    </div>
+                    <div class="read news2">
+                        <div>
+                            <a href="https://www.busan.go.kr/moca/news01/1531879?curPage=&srchBeginDt=2021-07-08&srchEndDt=2022-07-08&searchKey=&searchText=">
+                                <h5>&lt;&lt;Re: 새- 새- 정글 &gt;&gt; <br>작품 관람 안내</h5></a>
+                            <p>
+                                작품 내·외부의 지정된 통로외 공간은 출입을 금지합니다.<br>
+                                작품을 훼손시키는 과격한 행위는 금지합니다.<br>
+                                가져오신 쓰레기는 직접 치워주십시오.<br>
+                                기상악화, 작품 수복, 관객 안전 문제 발생 시 입장을 금합니다.<br>
+                                작품 내·외부 반려동물의 배변 행위를 금지합니다.
+                            </p>
+                            <span>
+                                2022.06.24
+                            </span>
+                        </div>
+                        <div>
+                            <a href="https://www.busan.go.kr/moca/news01/1533531?curPage=&srchBeginDt=2021-07-08&srchEndDt=2022-07-08&searchKey=&searchText=">
+                                <h5>책그림섬 임시 휴일 안내<br>
+                                    (7/12 ~ 7/17)</h5></a>
+                            <p>
+                                * 휴실기간 <br>
+                                2022. 7. 12.(화) ~ 7. 17.(일)<br>
+                                <br>
+                                <br>
+                                * 휴실사유 <br>
+                                7월 10일 지하 1층 《새로운 매개들》전시의 종료에 따라 작품 철거 및 추후 전시 설치 시 발생하는 소음 및 먼지 예방, 장비 운반과 이동 등으로 인한 어린이 안전사고 예방
+                            </p>
+                            <span>
+                                2022.07.06
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </article> 
+        </section>
         
         <aside>
           <div id="today_collect_btn">
@@ -208,7 +267,7 @@
             </a>
           </div>
           <div id="top_btn">
-            <a href="JavaScript:void(0)">
+            <a href="#">
               <span class=" material-symbols-outlined">arrow_upward</span>
             </a>
           </div>
@@ -225,18 +284,20 @@
                     <span>copyright 2017 by Museum of Contemporary Art Busan all right reserved.</span>
                 </address>
                 <ul class="sns">
-                    <li><a href="https://www.instagram.com/moca_busan/"><img src="./images/icon1.png"
+                    <li><a href="https://www.instagram.com/moca_busan/" target="blank"><img src="./images/icon1.png"
                                 alt="instagram"></a></li>
-                    <li><a href="https://twitter.com/MoCA_BUSAN"><img src="./images/icon2.png" alt="twitter"></a></li>
-                    <li><a href="https://www.facebook.com/busan.moca/"><img src="./images/icon3.png" alt="facebook"></a>
+                    <li><a href="https://twitter.com/MoCA_BUSAN" target="blank"><img src="./images/icon2.png" alt="twitter"></a></li>
+                    <li><a href="https://www.facebook.com/busan.moca/" target="blank"><img src="./images/icon3.png" alt="facebook"></a>
                     </li>
-                    <li><a href="https://www.youtube.com/c/MoCABusan"><img src="./images/icon4.png" alt="youtube"></a>
+                    <li><a href="https://www.youtube.com/c/MoCABusan" target="blank"><img src="./images/icon4.png" alt="youtube"></a>
                     </li>
                 </ul>
             </div>
         </footer>
     </div>
-    <script src="./aside_btn.js"></script>
+    <script src="./JS/nav.js"></script>
+    <script src="./JS/aside_btn.js"></script>
+    <script src="./JS/mainimg_slide.js"></script>
 </body>
 
 </html>
