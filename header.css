@@ -1,0 +1,93 @@
+#header {
+  width: 100%;
+}
+
+#nav {
+  margin: 0 auto;
+  width: 1000px;
+  height: 120px;
+}
+/* 영/한 전환버튼 */
+#language {
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #707070;
+  font-size: 13px;
+  position: absolute;
+  top: 25px;
+  right: 475px;
+  text-align: center;
+  line-height: 23px;
+  border: 1.5px solid #707070;
+  border-radius: 8px;
+  width: 80px;
+  height: 30px;
+}
+
+/* 버튼 호버시 배경색, 글자색 변경 */
+#language:hover {
+  color: white;
+  background-color: black;
+  border: 1.5px solid black;
+  border-radius: 8px;
+}
+
+/* 버튼 호버시 글자 변경 */
+#language:hover span {
+  display:none
+}
+#language:hover:before {
+  content:"한국어"
+}
+
+/* 메인메뉴 */
+#mainmn {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px 0 25px;
+  box-sizing: border-box;
+}
+
+#mainmn li {
+  margin-top: 20px;
+  width: 110px;
+}
+
+#mainmn > li > a {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+/* 메인메뉴 스타일지정 */
+#mainmn > li > a.over {
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  border-bottom: 2px solid black;
+}
+
+#mainmn .h_logo {
+  width: 210px;
+  margin: 0 60px;
+}
+
+#mainmn img {
+  width: 100%;
+}
+
+/* 서브메뉴 --> 배경(white), 포지션(absolute) 추가*/
+#mainmn .submn {
+  position: absolute;
+  z-index: 9999;
+  width: 110px;
+  height: 180px;
+  background-color: white;
+  margin-top: 20px;
+  opacity: 0;
+}
+
+/* 서브메뉴 스타일지정 */
+#mainmn .submn.act {
+  opacity: 1;
+  transition: 0.4s;
+}

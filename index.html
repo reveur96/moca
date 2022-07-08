@@ -20,6 +20,7 @@
     <div id="wrap">
       <header id="header">
         <nav id="nav">
+          <button id="language"><span>ENGLISH</span></button>
           <!-- 메인메뉴 -->
           <ul id="mainmn">
               <li><a href="#">이용안내</a>
@@ -49,6 +50,7 @@
                       <li><a href="#">소식</a></li>
                   </ul>
               </li>
+              <!-- 부산현대미술관 로고 -->
               <h1 class="h_logo"><img src="./images/h_logo.jpg" alt=""></h1>
               <li><a href="#">교육/소식</a>
                   <!-- 서브메뉴 04-->
@@ -75,36 +77,43 @@
           </ul>
         </nav>
           <!-- 메인이미지 -->
-          <section id="mainslide">
-              <article id="container">
-                  <div class="album">
-                      <!-- 슬라이드 버튼 -->
-                      <ul class="mainslide_btn">
-                          <li><a href="#"> </a></li>
-                          <li><a href="#"> </a></li>
-                          <li><a href="#"> </a></li>
-                      </ul>
-                      <!-- 슬라이드 이미지 -->
-                      <div class="images">
-                          <img src="./images/mainimg_1.png" alt="">
-                          <img src="./images/mainimg_2.png" alt="">
-                          <img src="./images/mainimg_3.png" alt="">
-                      </div>
-                  </div>
-              </article>
+          <section id="slide_wrap">
+            <!-- 메인이미지 슬라이더 -->
+            <article id="slide">
+              <!-- 메인이미지 -->
+              <div id="slide_item"></div>
+              <div id="slide_item"></div>
+              <div id="slide_item"></div>
+              <div id="slide_item"></div>
+              <div class="slide_prev_button slide_button">◀</div>
+              <div class="slide_next_button slide_button">▶</div>
+              <!-- 메인이미지 페이지네이션 -->
+              <ul class="slide_pagination"></ul>
+            </article>
           </section>
-          <article id="exh_bnr">
-            <div>
-              <p>새로운매개들 - 부산 미디어아트의 시작과 계보</p>
-              <span>2022.07.10 전시종료 예정</span>
-            </div>
-          </article>
+          <section id="exh_bnr">
+            <article id="exh_bnr_box">
+              <div>
+                <p>새로운매개들 - 부산 미디어아트의 시작과 계보</p>
+                <span>2022.07.10 전시종료 예정</span>
+              </div>
+              <!-- 무한 슬라이드 연출시 보여질 텍스트들 -->
+              <!-- <div>
+                <p>거의 정보가 없는 전시</p>
+                <span>2022.07.17 전시종료 예정</span>
+              </div>
+              <div>
+                <p>그레이박스 이후: 수집에서 전시까지</p>
+                <span>2022.07.20 전시종료 예정</span>
+              </div> -->
+            </article>
+          </section>
       </header>
 
       <!-- 콘텐츠 -->
       <section id="content_top">
         <!-- 콘텐츠 상단 -->
-      
+
         <!-- 관람안내 -->
         <article id="c_info">
           <h1>관람시간</h1>
@@ -208,7 +217,7 @@
             </a>
           </div>
           <div id="top_btn">
-            <a href="JavaScript:void(0)">
+            <a href="#">
               <span class=" material-symbols-outlined">arrow_upward</span>
             </a>
           </div>
@@ -236,7 +245,9 @@
             </div>
         </footer>
     </div>
-    <script src="./aside_btn.js"></script>
+    <script src="./JS/nav.js"></script>
+    <script src="./JS/aside_btn.js"></script>
+    <script src="./JS/mainimg_slide.js"></script>
 </body>
 
 </html>
