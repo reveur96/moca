@@ -1,0 +1,252 @@
+
+#wrap{
+  width: 100%;
+}
+
+/* 콘텐츠 */
+#contents{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#contents .content_layout{
+  width: 1000px;
+  /* height: 1080px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+#contents .content_layout h3{
+  font-size: 20px;
+  margin: 25px;
+}
+
+#contents .content_layout h4{
+  font-size: 15px;
+  margin: 15px;
+}
+
+
+/* page01 관람시간 */
+#contents .page01{
+  height: 600px;
+}
+
+#contents .page01 li{
+  margin-bottom: 5px;
+}
+
+#contents .page01 ul.page01_in_01{
+  width: 700px;
+  height: 100px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#contents .page01 ul.page01_in_02{
+  width: 700px;
+  height: 230px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* page02 도슨트운영 */
+#contents .page02{
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+#contents .page02 > p{
+  font-size: 15px;
+}
+
+#contents .page02 > ul{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#contents .page02 > ul > li{
+  width: 300px;
+}
+
+#contents .page02 .page02_in{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#contents .page02 .page02_in_top{
+  width: 300px;
+  height: 150px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#contents .page02 .page02_in_top > p {
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+
+#contents .page02 .page02_in_bottom{
+ width: 700px;
+ margin-top: 20px;
+}
+
+#contents .page02 .page02_in_bottom > p{
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+/* page03 전시관람예절 */
+#contents .page03{
+  height: 600px;
+}
+
+#contents .page03 p{
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 30px;
+}
+
+  /* #info_contents .page03 ul{} */
+#contents .page03 ul > li{
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+/* page04 교통안내 지도 */
+#contents .page04{
+  height: 600px;
+
+}
+
+/* page05 교통안내 대중교통 */
+#contents .page05{
+  height: 600px;
+}
+
+#contents .page05_in{
+  width: 700px;
+  height: 180px;
+  padding: 50px;
+  box-sizing: border-box;
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+#contents .page05_in span{
+  width: 100px;
+  height: 100px;
+  font-size: 70px;
+  line-height: 100px;
+  color: #888;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+#contents .page05_in > p{
+  font-size: 15px;
+  font-weight: 700;
+}
+
+#contents .page05_in_text{
+  width: 320px;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+}
+
+#contents .page05_in_text p{
+  line-height: 17px;
+}
+
+#contents .page05_in_text p:first-child{
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#contents .page05_in_text_sub{
+  font-size: 13px;
+  font-weight: 700;
+  margin: 10px 0 5px 0;
+}
+
+/* page06 주차안내 */
+#contents .page06{
+  /* height: 600px; */
+}
+
+#contents .page06 .page06_in{
+  width: 700px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#contents .page06 .page06_in_top{
+  width: 330px;
+  height: 150px;
+  background-color: #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+
+#contents .page06 .page06_in_bottom{
+line-height: 20px;
+}
+
+/* page07 주차관련 규정 */
+#contents .page07{ 
+  height: 550px;
+  width: 700px;
+  margin-bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contents .page07 h4{
+  line-height: 25px;
+}
+
+#contents .page07 > ul > li{
+  font-size: 14px;
+  margin: 20px;
+  line-height: 23px;
+}
