@@ -1,149 +1,138 @@
-#wrap{
-        width: 100%;
+#wrap {
+  width: 100%;
 }
 
 /* 콘텐츠 */
-#exh_detail{
-        width: 100%;
+#exh_detail {
+  width: 100%;
+  margin-top: 50px;
 }
 
-#exh_gray{
-        width: 1000px; 
-        margin: 0 auto;
+#exh_gray {
+  width: 1000px;
+  margin: 0 auto;
 }
 
 /* 전시 서문 */
-#exh_gray .exh_foreword{
-        width: 100%; 
-        height: 550px;
-        text-align: center;
+#exh_gray .exh_foreword {
+  width: 100%;
+  height: 550px;
+  text-align: center;
 }
 
-#exh_gray .exh_foreword h3{
-        font-size: 20px; 
-        margin-bottom: 15px;
-}
-        
-#exh_gray .exh_foreword h4{
-        font-size: 15px; 
-        margin-bottom: 15px;
+#exh_gray .exh_foreword h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
 }
 
-#exh_gray .exh_foreword p{
-        font-size: 12px; 
-        line-height: 20px;
-        margin-bottom: 30px;
+#exh_gray .exh_foreword h4 {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+#exh_gray .exh_foreword p {
+  font-size: 12px;
+  line-height: 20px;
+  margin-bottom: 30px;
 }
 
 /* 전시 본문 */
-#exh_gray .exh_body{
-        width: 100%; 
-        text-align: center;
-        margin-top: 50px;
+#exh_gray .exh_body {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
 }
 
-#exh_gray .exh_body h4{
-        font-size: 16px; 
-        margin-bottom: 15px;
+#exh_gray .exh_body h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
 }
 
 /* 전시 작품 전체 블록에 적용  */
-#exh_gray .exh_body .artwork{
-        width: 100%; 
-        margin-top: 20px;
+#exh_gray .exh_body .artwork {
+  width: 100%;
+  margin-top: 20px;
 }
 
-#exh_gray .exh_body .artwork img{
-        width: 100%; 
-        margin-bottom: 20px;
+#exh_gray .exh_body .artwork img {
+  width: 100%;
+  margin-bottom: 20px;
 }
 
-#exh_gray .exh_body .artwork h5{
-        font-size: 12px; 
-        margin-bottom: 5px;
+#exh_gray .exh_body .artwork h4 {
+  font-size: 12px;
+  margin-bottom: 5px;
 }
 
-#exh_gray .exh_body .artwork p{
-        font-size: 12px; 
-        line-height: 20px;
+#exh_gray .exh_body .artwork p {
+  font-size: 12px;
+  line-height: 20px;
 }
 
 /* 전시 작품 - 두번째 블록 */
-#exh_gray .exh_body .second{
-        width: 100%; 
-        margin-top: 175px;
-        display: flex;
-        justify-content: space-between;
+#exh_gray .exh_body .second {
+  width: 100%;
+  margin-top: 175px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#exh_gray .exh_body .second .l_second img{
-        width: 405px;
+#exh_gray .exh_body .second .l_second img {
+  width: 405px;
 }
 
-#exh_gray .exh_body .second .r_second img{
-        width: 571px;
+#exh_gray .exh_body .second .r_second img {
+  width: 571px;
 }
 
 /* 전시 작품 - 세번째 블록 */
-#exh_gray .exh_body .third{
-        width: 100%;
-        margin-top: 175px;
-        display: flex;
-        justify-content: space-between;
+#exh_gray .exh_body .third {
+  width: 100%;
+  margin-top: 175px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#exh_gray .exh_body .third img{
-        width: 405px;
+#exh_gray .exh_body .third img {
+  width: 405px;
 }
 
-#exh_gray .exh_body .third .r_third_txt{
-        width: 571px;
-        text-align: left;
+#exh_gray .exh_body .third .r_third_txt {
+  width: 571px;
+  text-align: left;
 }
 
 /* 전시 작품 - 네번째 블록 */
-#exh_gray .exh_body .fourth{
-        width: 100%;
-        margin-top: 175px;
-        display: flex;
-        justify-content: space-between;
+#exh_gray .exh_body .fourth {
+  width: 100%;
+  margin-top: 175px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#exh_gray .exh_body .fourth .l_fourth_txt{
-        width: 405px;
-        text-align: left;
+#exh_gray .exh_body .fourth .l_fourth_txt {
+  width: 405px;
+  text-align: left;
 }
 
-#exh_gray .exh_body .fourth img{
-        width: 571px;
+#exh_gray .exh_body .fourth img {
+  width: 571px;
 }
 
 /* 전시 작품 - 다섯번째 블록 */
-#exh_gray .exh_body .fifth{
-        width: 100%;
-        margin-top: 175px;
-        margin-bottom: 200px;
-        display: flex;
-        justify-content: space-between;
+#exh_gray .exh_body .fifth {
+  width: 100%;
+  margin-top: 175px;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
 }
 
-#exh_gray .exh_body .fifth img{
-        width: 405px;
+#exh_gray .exh_body .fifth img {
+  width: 405px;
 }
 
-#exh_gray .exh_body .fifth .r_fifth_txt{
-        width: 571px;
-        text-align: left;
+#exh_gray .exh_body .fifth .r_fifth_txt {
+  width: 571px;
+  text-align: left;
 }
-
-
-
-
-
-        
-
-
-
-
-
-
