@@ -11,16 +11,16 @@
 #language {
   font-family: 'Noto Sans KR', sans-serif;
   color: #707070;
-  font-size: 13px;
+  font-size: 11px;
   position: absolute;
-  top: 25px;
-  right: 475px;
+  top: 20px;
+  right: 465px;
   text-align: center;
-  line-height: 23px;
+  line-height: 15px;
   border: 1.5px solid #707070;
-  border-radius: 8px;
-  width: 80px;
-  height: 30px;
+  border-radius: 5px;
+  width: 65px;
+  height: 25px;
 }
 
 /* 버튼 호버시 배경색, 글자색 변경 */
