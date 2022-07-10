@@ -1,5 +1,5 @@
-
 #pageSatisfy {
+  margin: 0 auto;
   width: 1000px;
   height: 430px;
 }
@@ -14,7 +14,6 @@
   float: left;
   font-weight: bold;
   font-size: 1.2em;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy header .point {
@@ -24,12 +23,6 @@
 #pageSatisfy header .point span {
   padding-right: 10px;
   font-size: 0.9em;
-  font-family: 'Noto Sans KR', sans-serif;
-}
-
-#pageSatisfy .invisible {
-  font-family: 'Noto Sans KR', sans-serif;
-  margin: 10px;
 }
 
 #pageSatisfy .satisfyInner {
@@ -51,7 +44,6 @@
   line-height: 24px;
   vertical-align: middle;
   margin-right: 10px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy .satisfyInner input[type="radio"] {
@@ -85,8 +77,8 @@
   background: #f9f9f9;
   border: 1px solid #b5b7bf;
   border-width: 1px 1px 0px 0px;
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 #pageSatisfy .manager.single {
@@ -94,11 +86,10 @@
 }
 
 #pageSatisfy .manager h3 {
-  font-family: 'Noto Sans KR', sans-serif;
   float: left;
   width: 130px;
-  height: 50px;
-  padding: 25px 0 0 15px;
+  height:50px; 
+  padding:25px 0 0 15px;
   background: url(https://www.busan.go.kr/humanframe/global/assets/img/bg_order.png) no-repeat right center;
   color: #fff;
 }
@@ -107,7 +98,6 @@
   overflow: hidden;
   padding: 0 0 0 15px;
   font-size: 0.9em;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy .manager dt,
@@ -136,14 +126,12 @@
 }
 
 #pageSatisfy header p:before {
-    font-family: 'Noto Sans KR', sans-serif;
   top: 0px !important;
 }
 
 /* #pageSatisfy header p		{ height: auto !important; min-height: 50px; } */
 #pageSatisfy #satisfactionVO header p {
   min-height: 0px;
-  font-family: 'Noto Sans KR', sans-serif;
 }
 
 #pageSatisfy header {
