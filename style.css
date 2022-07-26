@@ -221,14 +221,42 @@ li {
   color: #fff;
   font-size: 20px;
 }
-#c_child ul{
+/* #c_child ul{
   width: 100%;
+  height: 300px;
   opacity:1; 
   position: absolute;
   top:450px;
   display: flex;
   justify-content: space-around;
+  overflow: hidden;
+} */
+
+.book_invisible{
+  display: none;
 }
+.book_visible{
+  width: 100%;
+  height: 300px;
+  opacity:1; 
+  position: absolute;
+  top:450px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+@keyframes book {
+  from {
+    transform: translate(0,400px);
+  }
+
+  to {
+    transform: translate(0,0);
+  }
+}
+
+
 #c_child ul a > figcaption{
   width: 250px; 
   height: 250px;
@@ -340,10 +368,6 @@ li {
 #c_edu input[id="tab02"]:checked ~ .con2 img{
   display: block;
 } 
-
-
-
-
 
 
 
