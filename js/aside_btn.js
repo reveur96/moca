@@ -57,4 +57,5 @@ collectBtn.addEventListener("mouseleave", function () {
   Image.style.animation = "collect_img_reverse 1.5s forwards alternate";
   Image.className = "today_collect_img_invisible";
   collectBtnP.innerText = "오늘의" + "\n" + "소장품";
+  collectBtnP.style.animation = "collect_txt 1.2s forwards alternate";
 });
