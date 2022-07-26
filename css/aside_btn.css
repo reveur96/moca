@@ -38,6 +38,7 @@
   color: #fff;
   text-align: center;
   line-height: 25px;
+  transition: all 1s ease-in-out;
 }
 
 .today_collect_btn_visible:hover {
@@ -176,6 +177,7 @@ to {
   }
 }
 
+
 /* 자연스럽게 사라지기 */
 @keyframes collect_btn_reverse {
   from {
@@ -218,3 +220,14 @@ to {
     transform: scale(0, 0);
   }
 }
+
+@keyframes collect_txt {
+  from {
+      transform: translate(-100px, 0);
+    }
+  
+    to {
+      transform: translate(0, 0);
+    }
+  
+  }
