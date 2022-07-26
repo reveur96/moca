@@ -10,6 +10,9 @@
 .top_btn_invisible {
   display: none;
 }
+.today_collect_img_invisible{
+  display: none;
+}
 
 /* 오늘의 소장품 button */
 .today_collect_btn_visible {
@@ -33,6 +36,7 @@
   font-size: 15px;
   font-family: 'Noto Sans KR', sans-serif;
   color: #fff;
+  text-align: center;
   line-height: 25px;
 }
 
@@ -51,7 +55,12 @@
   justify-content: center;
   align-items: center;
 }
-
+.today_collect_img_visible {
+  margin-top: 10px;
+  border-radius: 20px;
+  display: block;
+  transition: all 1s ease-in-out 2s;
+}
 
 /* 예약바로가기 button */
 .reserve_btn_visible {
@@ -71,7 +80,7 @@
   transition: all 1s ease-in-out;
 }
 
-.reserve_btn_visible p {
+.reserve_btn_visible p:first-child {
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 14px;
   color: #fff;
@@ -134,6 +143,7 @@
   }
 }
 
+
 @keyframes reserve_btn {
   from {
     transform: translate(100px, 0);
@@ -155,6 +165,16 @@ to {
 
 }
 
+/* hover 했을때 이미지 자연스럽게 나타나기 */
+@keyframes collect_img {
+  from {
+    transform: scale(0, 0);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
 
 /* 자연스럽게 사라지기 */
 @keyframes collect_btn_reverse {
@@ -186,4 +206,15 @@ to {
     transform: translate(0, 100px);
   }
 
+}
+
+/* hover 아닐떄 이미지 자연스럽게 사라지기 */
+@keyframes collect_img_reverse {
+  from {
+    transform: scale(1, 1);
+  }
+
+  to {
+    transform: scale(0, 0);
+  }
 }
